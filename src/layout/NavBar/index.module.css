@@ -10,9 +10,10 @@
     font-size: 18px;
     padding: 10px 20px;
 }
-.navbar-block:nth-child(2)::after{
-    margin-left: -7px;
-    top: 34px;
+.li-after::after{
+    margin-left: -6px;
+    top: 10px;
+    left: 0;
     position: absolute;
     content: "";
     height: 20px;

@@ -16,7 +16,7 @@ function Navbar() {
 
             <div className={style['navbar-block']}>
                 <ul>
-                    <li>Wix Studio</li>
+                    <li className={style['li-after']} >Wix Studio</li>
                     <li>Enterprise</li>
                 </ul>
             </div>
