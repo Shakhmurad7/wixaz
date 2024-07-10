@@ -1,0 +1,22 @@
+.navbar-container{
+    gap: 15px;
+    display: flex;
+}
+.navbar-block ul{
+    display: flex; 
+}
+.navbar-block ul li{
+    position: relative;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.navbar-block:nth-child(2)::after{
+    margin-left: -7px;
+    top: 34px;
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.27);
+}
+    

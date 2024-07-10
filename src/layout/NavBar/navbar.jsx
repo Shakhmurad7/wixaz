@@ -1,15 +1,27 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import style  from './index.module.css'
 
 function Navbar() {
   return (
         <>
-        <Link to={"/"} >
-            <h2>homer</h2>
-        </Link>
-        <Link to={"/about"} >
-            <h2>about</h2>
-        </Link>
+        <div className={style['navbar-container']}>
+            <div className={style['navbar-block']}>
+                <ul>
+                    <li>Product</li>
+                    <li>Solutions</li>
+                    <li>Resources</li>
+                    <li>Pricing</li>
+                </ul>
+            </div>
+
+            <div className={style['navbar-block']}>
+                <ul>
+                    <li>Wix Studio</li>
+                    <li>Enterprise</li>
+                </ul>
+            </div>
+        </div>
+
         </>
   )
 }

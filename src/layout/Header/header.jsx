@@ -4,8 +4,12 @@ import Navbar from '../NavBar/navbar'
 function Header() {
   return (
     <>
-    <Navbar/>
-        <h1>header</h1>
+    <div className="hader-container">
+      <div className="header-right">
+        <img src='./imgs/Cobify 3.jpg' />
+        <Navbar/>
+      </div>
+    </div>
     </>
   )
 }
