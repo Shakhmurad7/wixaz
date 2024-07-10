@@ -5,6 +5,13 @@ li{
     list-style: none;
 }
 *{
+    /* font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal; */
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 300;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -29,6 +36,7 @@ li{
     object-fit: cover;
 }
 .header-left-row{
+    align-items: center;
     gap: 20px;
     display: flex;
 }
@@ -38,24 +46,24 @@ li{
     display: flex;
 }
 .IoIosGlobe {
-    font-size: 18px;
+    font-size: 22px;
 }
 .li-after{
     position: relative;
 }
 .li-after::after{
     margin-left: -10px;
-    top: 2px;
+    top: -2px;
     left: 0;
     position: absolute;
     content: "";
-    height: 15px;
-    width: 1px;
+    height: 20px;
+    width: 2px;
     background-color: rgba(0, 0, 0, 0.27);
 }
 .p-element{
     color: white;
-    padding: 7px 30px;
+    padding: 10px 30px;
     border-radius:40px;
     background-color: #166aea;
 }
@@ -63,7 +71,11 @@ li{
 
 /* ---nav---- */
 .nav-container{
-    background-color: rgb(74, 56, 211);
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(65, 50, 184);
 }
 .nav-text h2{
     font-size: 5.5rem;
@@ -91,6 +103,8 @@ li{
     margin: 0 auto;
 }   
 .nav-block button{
+    font-size: 20px;
+    cursor: pointer;
     border: none;
     padding: 10px 0px;
     background-color: white;
@@ -98,4 +112,11 @@ li{
 }
 .nav-block p{
     font-size: 10px;
+}
+.nav-img {
+    padding-bottom: 50px;
+}
+.nav-img img{
+    width: 100%;
+    max-width: 950px;
 }

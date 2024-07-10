@@ -14,6 +14,9 @@ function Home() {
                 <p>Start for free. No credit card required.</p>
             </div>
           </div>
+          <div className="nav-img">
+            <img src="./Screenshot_1.png" />
+          </div>
 
         </div>
     </PageContainer>
