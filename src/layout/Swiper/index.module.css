@@ -1,0 +1,91 @@
+.swiper-container{
+    padding: 50px 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.swiper-column{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.span-swiper-text{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.swiper-top-text{
+    width: 100%;
+    max-width: 780px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+}
+.swiper-top-text h2{
+    font-size: 4rem;
+}
+.swiper-top-text button{
+    transition: .2s;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 40px;
+    margin: 0 auto;
+    width: fit-content;
+}
+.swiper-top-text button:hover{
+    transition: .2s;
+    background-color: rgb(196, 196, 196);
+}
+
+
+
+/* ----Swiper---- */
+body {
+    margin: 0;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* App styling */
+  .my-swiper-app {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px 24px 10px 24px;
+  }
+  
+  .my-swiper-list {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    overflow-x: auto;
+    width: 1400px;
+    padding: 20px 0px;
+  }
+  
+  .my-swiper-list > li {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    flex: 0 0 600px;
+    height: 400px;
+    justify-content: center;
+  }
+  .my-swiper-list li img{
+    height: 400px;
+  }
+  .swiper-icon{
+    text-decoration: underline;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+  }

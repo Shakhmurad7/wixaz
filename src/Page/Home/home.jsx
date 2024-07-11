@@ -1,5 +1,6 @@
 import React from 'react'
 import PageContainer from '../../PageContainer/PageContainer'
+import Swipers from '../../layout/Swiper/swiper'
 
 function Home() {
   return (
@@ -24,7 +25,7 @@ function Home() {
         {/* ----Box-text---- */}
         <div className="box-center">
         <div className="box-container">
-            <h2>One platform,infinite possibilities</h2>
+            <h2>One platform, infinite possibilities</h2>
             <div className="box-container-block">
               <div className="box-block">
                   <h3>Build a website</h3>
@@ -45,6 +46,10 @@ function Home() {
             </div>
         </div>
         </div>
+
+
+        {/* ----Swiper---- */}
+            <Swipers/>
     </PageContainer>
     </>
   )

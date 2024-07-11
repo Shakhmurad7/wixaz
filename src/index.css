@@ -133,7 +133,7 @@ li{
 .box-container h2{
     width: 100%;
     font-size: 3.5rem;
-    max-width: 520px;
+    max-width: 500px;
 }
 .box-container-block{
     display: flex;
