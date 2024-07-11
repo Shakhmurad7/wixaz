@@ -2,6 +2,7 @@ import React from 'react'
 import PageContainer from '../../PageContainer/PageContainer'
 import Swipers from '../../layout/Swiper/swiper'
 import { FaArrowRightLong } from "react-icons/fa6";
+import Accardion from '../../layout/accardion/accardion';
 
 function Home() {
   return (
@@ -69,6 +70,12 @@ function Home() {
           </div>
 
 
+
+          {/* ----Accardion---- */}
+              <Accardion/>
+
+              
+
           {/* ---page-box--- */}
               <div className="page-container">
                   <div className="page-box"> 
@@ -76,6 +83,8 @@ function Home() {
                     <p>Get Started</p>
                   </div>
               </div>
+
+
     </PageContainer>
     </>
   )

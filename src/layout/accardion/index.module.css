@@ -1,0 +1,56 @@
+.accardion-div{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+}
+.accardion-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+}
+.accardion-container h2 {
+    font-size: 3rem;
+    font-weight: 100;
+}
+.accardion-row{
+    display:flex;
+    justify-content: space-between;
+}
+.accardion-p{
+    transition: .4s;
+    height: 0;
+    overflow: hidden;
+}
+.accardion-block{
+    cursor: pointer;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.icon-plus{
+    right: 20px;
+    position: absolute;
+    font-size: 22px;
+    transition: .4s;
+    top: 20px;
+    transform: rotate(0deg);
+}
+.icon-plus.active{
+    font-size: 22px;
+    top: 15px;
+    right: 21px;
+    position: absolute;
+    transition: .4s;
+    transform: rotate(135deg);
+}
+.accardion-p.active{
+    transition: .4s;
+    padding-top:20px ;
+    height: auto;
+    overflow:auto;
+}
