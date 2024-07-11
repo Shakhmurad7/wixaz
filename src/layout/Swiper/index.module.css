@@ -82,10 +82,11 @@ body {
     height: 400px;
   }
   .swiper-icon{
-    text-decoration: underline;
+    border-bottom: 1px solid;
+    width: fit-content;
     font-size: 12px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     color: white;
   }

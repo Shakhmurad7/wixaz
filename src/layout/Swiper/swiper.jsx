@@ -20,71 +20,55 @@ function Swipers() {
                         <img src="./imgs/Screenshot_1.png"/>
                         <div className={style['swiper-icon']}>
                             <p>Store</p>
-                            <div className="">
-                            <FaArrowRightLong />
-                            </div>
+                                <FaArrowRightLong />
                         </div>
                     </li>
                     <li>
                         <img src="./imgs/Screenshot_2.png"/>
                         <div className={style['swiper-icon']}>
-                            <p>Technology</p>
-                            <div className="">
-                            <FaArrowRightLong />
-                            </div>
+                            <p>Technology</p>                           
+                            <FaArrowRightLong />                            
                         </div></li>
                     <li>
                         <img src="./imgs/Screenshot_3.png"/>
                         <div className={style['swiper-icon']}>
-                            <p>Blog</p>
-                            <div className="">
-                            <FaArrowRightLong />
-                            </div>
+                            <p>Blog</p>                         
+                            <FaArrowRightLong />        
                         </div>
                         </li>
                     <li>
                         <img src="./imgs/Screenshot_4.png"/>
                         <div className={style['swiper-icon']}>
-                            <p>Restaurant</p>
-                            <div className="">
-                            <FaArrowRightLong />
-                            </div>
+                            <p>Restaurant</p>                         
+                            <FaArrowRightLong />                      
                         </div>
                         </li>
                     <li>
                         <img src="./imgs/Screenshot_5.png"/>
                         <div className={style['swiper-icon']}>
-                            <p>Fashion</p>
-                            <div className="">
-                            <FaArrowRightLong />
-                            </div>
+                            <p>Fashion</p>                       
+                            <FaArrowRightLong />                        
                         </div>
                         </li>
                     <li>
                         <img src="./imgs/Screenshot_6.png"/>
                         <div className={style['swiper-icon']}>
-                            <p>Business</p>
-                            <div className="">
+                            <p>Business</p>                          
                             <FaArrowRightLong />
-                            </div>
                         </div>
                         </li>
                     <li>
                         <img src="./imgs/Screenshot_7.png"/>
                         <div className={style['swiper-icon']}>
                             <p>Fitness</p>
-                            <div className="">
-                            <FaArrowRightLong />
-                            </div>
+                             <FaArrowRightLong />                         
                         </div>
                         </li>
                     <li>
                         <img src="./imgs/Screenshot_8.png"/>
                         <div className={style['swiper-icon']}>
-                            <p>Store</p>
-                            <div className="">
+                            <p>Store</p>                          
                             <FaArrowRightLong />
-                            </div>
                         </div>
                         </li>
                 </ul>

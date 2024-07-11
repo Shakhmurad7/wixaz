@@ -1,6 +1,7 @@
 import React from 'react'
 import PageContainer from '../../PageContainer/PageContainer'
 import Swipers from '../../layout/Swiper/swiper'
+import { FaArrowRightLong } from "react-icons/fa6";
 
 function Home() {
   return (
@@ -50,6 +51,22 @@ function Home() {
 
         {/* ----Swiper---- */}
             <Swipers/>
+
+        {/* ---content-text---- */}
+          <div className="content">
+            <div className="content-container">
+              <div className="content-left">
+                <h2>Build more than a website</h2>
+              </div>
+              <div className="content-right">
+                <p>Get secure web hosting, a custom domain and a full business solution tailored to your needs. So whether you’re selling online, starting a blog, building a community or anything else—your site will do more than just look good, it will be the core of your business.</p>
+                <div className="content-icon">
+                  <h3>Get Started</h3>
+                  <FaArrowRightLong />
+                </div>
+              </div>
+            </div>
+          </div>
     </PageContainer>
     </>
   )
