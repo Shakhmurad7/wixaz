@@ -67,6 +67,15 @@ function Home() {
               </div>
             </div>
           </div>
+
+
+          {/* ---page-box--- */}
+              <div className="page-container">
+                  <div className="page-box"> 
+                    <h2>Tomorrow’s success starts today.</h2>
+                    <p>Get Started</p>
+                  </div>
+              </div>
     </PageContainer>
     </>
   )

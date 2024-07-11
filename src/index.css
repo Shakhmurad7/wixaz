@@ -292,3 +292,32 @@ li{
     gap: 50px;
     font-size: 12px;
 }
+
+
+
+/* ----page-box---- */
+.page-container{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+    background-color: rgb(193, 155, 248);
+}
+.page-box h2 {
+    font-size: 3rem;
+}
+.page-box p{
+    padding: 10px 30px;
+    font: 18px;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+.page-box{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
