@@ -71,10 +71,46 @@ function Home() {
 
 
 
+        {/* ----Box-text-2---- */}
+        <div className="box-cente-two">
+        <div className="box-container">
+            <h2>We’re here for you</h2>
+            <div className="box-container-block">
+              <div className="box-block">
+                  <h3>Build a website</h3>
+                  <p>Design with a full suite of intuitive tools and powerful AI to create the site you want.</p>
+                  <div className="box-icon-right">
+                    <p>Go to Help Center</p>
+                    <FaArrowRightLong />
+                  </div>
+              </div>
+              <div className="box-block">
+                  <h3>Manage your business
+                  </h3>
+                  <p>Design with a full suite of intuitive tools and powerful AI to create the site you want.</p>
+                  <div className="box-icon-right">
+                    <p>Go to Help Center</p>
+                    <FaArrowRightLong />
+                  </div>
+              </div>
+              <div className="box-block">
+                  <h3>Grow online</h3>
+                  <p>Design with a full suite of intuitive tools and powerful AI to create the site you want.</p>
+                  <div className="box-icon-right">
+                    <p>Go to Help Center</p>
+                    <FaArrowRightLong />
+                  </div>
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+
           {/* ----Accardion---- */}
               <Accardion/>
 
-              
+
 
           {/* ---page-box--- */}
               <div className="page-container">

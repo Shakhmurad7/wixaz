@@ -16,6 +16,10 @@ li{
 
 /* ----header----- */
 .hader-container{
+    z-index: 1000;
+    width: 100%;
+    background-color: white;
+    position: fixed;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -68,7 +72,7 @@ li{
 
 /* ---nav---- */
 .nav-container{
-
+    padding-top: 80px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -219,6 +223,57 @@ li{
 }
 
 
+/* ----page-box---- */
+.page-container{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+    background-color: rgb(193, 155, 248);
+}
+.page-box h2 {
+    font-size: 3rem;
+}
+.page-box p{
+    padding: 10px 30px;
+    font: 18px;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+.page-box{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+
+
+/* ----box-two--- */
+.box-cente-two{
+    background-color: rgb(243, 239, 229);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.box-icon-right:hover p ,.box-icon-right:hover{
+    color: #166aea;
+    transition: .3s;
+}
+.box-icon-right{
+    transition: .3s;
+    cursor: pointer;
+    width: fit-content;
+    border-bottom:1px solid ;
+    font-size: 14px;
+    padding-top: 8px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 
 /* ---footer--- */
 .footer{
@@ -294,30 +349,3 @@ li{
 }
 
 
-
-/* ----page-box---- */
-.page-container{
-    display: flex;
-    justify-content: center;
-    padding: 80px 0px;
-    background-color: rgb(193, 155, 248);
-}
-.page-box h2 {
-    font-size: 3rem;
-}
-.page-box p{
-    padding: 10px 30px;
-    font: 18px;
-    color: white;
-    background-color: black;
-    width: fit-content;
-    margin: 0 auto;
-    border-radius: 40px;
-}
-.page-box{
-    color: black;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 40px;
-}
