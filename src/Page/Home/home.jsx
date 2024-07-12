@@ -87,6 +87,11 @@ function Home() {
                 </div>
                 <div className="section-right">
 
+                  <div className="video">
+                      <video autoplay="true" muted="true" loop="true">
+                          <source src="./video/Purple Red Course Accounting Intro Outro Youtube Video.mp4" />
+                      </video>
+                  </div>
                 </div>
             </div>
           </div>
