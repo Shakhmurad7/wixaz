@@ -70,6 +70,28 @@ function Home() {
           </div>
 
 
+        {/* ---Section--- */}
+          <div className="section">
+            <div className="section-container">
+                <div className="section-left">
+                  <div className="section-left-box">
+                  <h2>Customize it your way</h2>
+                  <ul>
+                    <li>Intuitive drag and drop website editor</li>
+                    <li>1000’s of advanced web design capabilities</li>
+                    <li>Powerful AI features for smart customization</li>
+                    <li>Full-stack web dev tools for custom functionality</li>
+                  </ul>
+                  <p>Get Started</p>
+                  </div>
+                </div>
+                <div className="section-right">
+
+                </div>
+            </div>
+          </div>
+
+
 
         {/* ----Box-text-2---- */}
         <div className="box-cente-two">
