@@ -58,19 +58,17 @@ function Accardion() {
                 <h2>FAQs</h2>
                 <div className={style['accardion-box']}>
                     {
-                        AccardionData.map(({item , title , id } , i)=>(
-                        <div onClick={()=>tab(i)} key={id} className={style['accardion-block']}>
+                    AccardionData.map(({item , title , id } , i)=>(
+                        <div onClick={()=>tab(i)} key={id} className={`${style['accardion-block']} ${open === i ? style['active'] : ''}`}>
                           <div  className={style['accardion-row']}>
                             <h3>{item}</h3>
                             <div  className={`${style['icon-plus']} ${open === i ? style['active'] : ''}`}>
                                 <FaPlus  />
                             </div>
                         </div>
-                        <p className={`${style['accardion-p']} ${open === i ? style['active'] : ''}`} >{title}</p>
+                        <p >{title}</p>
                     </div>
-
                         ))
-
                     }
 
                 </div>
