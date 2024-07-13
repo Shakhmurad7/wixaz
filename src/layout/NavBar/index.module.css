@@ -24,12 +24,14 @@
     font-weight: 700;
 }
 .ul-class li{
+    user-select: none;
     cursor: pointer;
 }
 .icon:nth-child(1){
     color: red;
 }
 .ul li{
+    user-select:none;
     cursor: pointer;
     width: 85px;
     text-align: center;

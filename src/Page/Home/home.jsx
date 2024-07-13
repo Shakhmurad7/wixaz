@@ -3,6 +3,8 @@ import PageContainer from '../../PageContainer/PageContainer'
 import Swipers from '../../layout/Swiper/swiper'
 import { FaArrowRightLong } from "react-icons/fa6";
 import Accardion from '../../layout/accardion/accardion';
+import { GoArrowRight } from "react-icons/go";
+
 
 function Home() {
   return (
@@ -14,7 +16,12 @@ function Home() {
             <h2>Create a website without limits</h2>
             <h3>Build and scale with confidence. From a powerful website builder to advanced business solutions—we’ve got you covered</h3>
             <div className="nav-block">
+              <div className="button-incon">
                 <button>Get Started</button>
+                <div className="icon-right">
+                  <GoArrowRight />
+                </div>
+              </div>
                 <p>Start for free. No credit card required.</p>
             </div>
           </div>
