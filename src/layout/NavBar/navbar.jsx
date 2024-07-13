@@ -21,7 +21,7 @@ function Navbar() {
         <>
         <div className={style['navbar-container']}>
             <div className={style['navbar-block']}>
-                <ul>
+                <ul className={style['ul']}  >
                     <div onClick={()=>tabs(1)} className={style['ul-icon']}>
                         <li className={style[`${open ===1? 'ul-icon-active' : ''}`]}>Product</li>
                         <div className={style['icon']}>
