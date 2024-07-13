@@ -1,21 +1,12 @@
-import React, { useState } from 'react'
+
 import style  from './index.module.css'
 import { GoChevronDown } from "react-icons/go";
 import { GoChevronUp } from "react-icons/go";
 
 
-function Navbar() {
+function Navbar({open , tabs}) {
 
-    const [open , setopen] = useState(null)
-    const tabs =(i)=>{
-        if(open === i){
-            setopen(null)
-        }
-        else{
-            setopen(i)
-        }
 
-    }
 
   return (
         <>
@@ -29,7 +20,9 @@ function Navbar() {
                                 open===1? <GoChevronUp /> :<GoChevronDown />
                             }
                         </div>
-                        </div>
+                    </div>
+
+
                     <div onClick={()=>tabs(2)} className={style['ul-icon']}>
                         <li className={style[`${open ===2? 'ul-icon-active' : ''}`]} >Solutions</li>
                         <div className={style['icon']}>
@@ -58,6 +51,7 @@ function Navbar() {
             </div>
         </div>
 
+      
         </>
   )
 }
