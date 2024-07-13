@@ -1,30 +1,49 @@
-import React from 'react'
+import React, { useState } from 'react'
 import style  from './index.module.css'
 import { GoChevronDown } from "react-icons/go";
+import { GoChevronUp } from "react-icons/go";
 
 
 function Navbar() {
+
+    const [open , setopen] = useState(null)
+    const tabs =(i)=>{
+        if(open === i){
+            setopen(null)
+        }
+        else{
+            setopen(i)
+        }
+
+    }
+
   return (
         <>
         <div className={style['navbar-container']}>
             <div className={style['navbar-block']}>
                 <ul>
-                    <div className={style['ul-icon']}>
-                        <li>Product</li>
+                    <div onClick={()=>tabs(1)} className={style['ul-icon']}>
+                        <li className={style[`${open ===1? 'ul-icon-active' : ''}`]}>Product</li>
                         <div className={style['icon']}>
-                        <GoChevronDown />
+                            {
+                                open===1? <GoChevronUp /> :<GoChevronDown />
+                            }
                         </div>
                         </div>
-                    <div className={style['ul-icon']}>
-                        <li>Solutions</li>
+                    <div onClick={()=>tabs(2)} className={style['ul-icon']}>
+                        <li className={style[`${open ===2? 'ul-icon-active' : ''}`]} >Solutions</li>
                         <div className={style['icon']}>
-                        <GoChevronDown />
+                            {
+                                open===2? <GoChevronUp /> :<GoChevronDown />
+                            }
                         </div>
                     </div>
-                    <div className={style['ul-icon']}>
-                        <li>Resources</li>
+                    <div  onClick={()=>tabs(3)} className={style['ul-icon']}>
+                        <li className={style[`${open ===3? 'ul-icon-active' : ''}`]}  >Resources</li>
                         <div className={style['icon']}>
-                        <GoChevronDown />
+                            {
+                                open===3? <GoChevronUp /> :<GoChevronDown />
+                            }
                         </div>
                     </div>
                     <li>Pricing</li>

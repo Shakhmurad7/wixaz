@@ -7,7 +7,7 @@
 }
 .navbar-block ul li{
     position: relative;
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px 0px;
 }
 .li-after::after{
@@ -23,9 +23,12 @@
 .ul-icon:hover li , ul li:hover{
     font-weight: 700;
 }
+.icon:nth-child(1){
+    color: red;
+}
 ul li{
     cursor: pointer;
-    width: 100px;
+    width: 85px;
     text-align: center;
 }
 .ul-icon{
@@ -51,4 +54,7 @@ ul{
 .icon{
     margin-top: 5px;
     font-size: 20px;
+}
+.ul-icon-active{
+    font-weight: 700 !important;
 }
