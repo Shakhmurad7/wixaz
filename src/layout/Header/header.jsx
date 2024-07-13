@@ -46,7 +46,7 @@ function Header() {
                   <h3>BUSINESS</h3>
                 </div>
               </div>
-                <div className={style['active-right-container']}>
+                <div className={style['active-left-container']}>
                     <div className={style['active-container-left-1']}>
                     <div className={style['active-container-left-box']}>
 
@@ -76,17 +76,16 @@ function Header() {
                             <h2>Website design</h2>
                             <p>Create your site with intuitive design features</p>
                         </div>
+                        <div className={style['active-container-left-box-block']} >
+                            <h2>Website design</h2>
+                            <p>Create your site with intuitive design features</p>
+                        </div>
                     </div>  
                                              
             </div>
 
             <div className={style['active-container-left-2']}>
                           <div className={style['active-container-left-box-block']} >
-                            <h2>Website design</h2>
-                            <p>Create your site with intuitive design features</p>
-                        </div>
-
-                        <div className={style['active-container-left-box-block']} >
                             <h2>Website design</h2>
                             <p>Create your site with intuitive design features</p>
                         </div>
@@ -126,46 +125,48 @@ function Header() {
       </div>
 
 
+
+
 {/* -----Open2------ */}
-
-      <div className={`${style['active-container']} ${open===2? style['active'] : ''}`}>
-            <div className={style['active-right']}>
-              <div className={style['active-right=top']}>
-                <h3>CREATION</h3>
-                <h3>BUSINESS</h3>
+<div className={`${style['active-container']} ${open===2? style['active'] : ''}`}>
+            <div className={style['active-left']}>
+              <div className={style['active-left-top']}>
+                <div className={style['active-left-top-block']}>
+                  <h3>CREATION</h3>
+                  <h3>BUSINESS</h3>
+                </div>
               </div>
-                <div className={style['active-right-container']}>
-                    <div className={style['active-container-right']}>
-                    <div className={style['active-container-right-box']}>
+                <div className={style['active-left-container']}>
+                    <div className={style['active-container-left-1']}>
+                    <div className={style['active-container-left-box']}>
 
-              <div className={style['active-container-right-box-block']} >
+                     <div className={style['active-container-left-box-block']} >
                           <h2>Website design</h2>
                           <p>Create your site with intuitive design features</p>
-                  </div>
-                    <div className={style['active-container-right-box-block']} >
+                      </div>
+                      <div className={style['active-container-left-box-block']} >
                           <h2>Website design</h2>
                           <p>Create your site with intuitive design features</p>
                     </div>
 
-                        <div className={style['active-container-right-box-block']} >
+                        <div className={style['active-container-left-box-block']} >
                             <h2>Website design</h2>
                             <p>Create your site with intuitive design features</p>
                         </div>
 
                     </div>  
                                              
-                  <div className={style['active-container-right-box']}>
-                        <div className={style['active-container-right-box-block']} >
+                  <div className={style['active-container-left-box']}>
+                        <div className={style['active-container-left-box-block']} >
                             <h2>Website design</h2>
                             <p>Create your site with intuitive design features</p>
                         </div>
 
-                        <div className={style['active-container-right-box-block']} >
+                        <div className={style['active-container-left-box-block']} >
                             <h2>Website design</h2>
                             <p>Create your site with intuitive design features</p>
                         </div>
-
-                        <div className={style['active-container-right-box-block']} >
+                        <div className={style['active-container-left-box-block']} >
                             <h2>Website design</h2>
                             <p>Create your site with intuitive design features</p>
                         </div>
@@ -173,18 +174,13 @@ function Header() {
                                              
             </div>
 
-            <div className={style['active-container-left']}>
-                          <div className={style['active-container-right-box-block']} >
+            <div className={style['active-container-left-2']}>
+                          <div className={style['active-container-left-box-block']} >
                             <h2>Website design</h2>
                             <p>Create your site with intuitive design features</p>
                         </div>
 
-                        <div className={style['active-container-right-box-block']} >
-                            <h2>Website design</h2>
-                            <p>Create your site with intuitive design features</p>
-                        </div>
-
-                        <div className={style['active-container-right-box-block']} >
+                        <div className={style['active-container-left-box-block']} >
                             <h2>Website design</h2>
                             <p>Create your site with intuitive design features</p>
                         </div>
@@ -192,50 +188,74 @@ function Header() {
 
         </div>
       </div>
-        <div className={style['active-left']}></div>
+        <div className={style['active-right']}>
+                <div className={style['active-right-container']}>
+                    <div className={style['active-right-top-text']}>
+                      <h3>ESSENTIALS</h3>
+                    </div>
+
+                    <div className={style['active-right-box']}>
+                      <div className={style['active-right-block']}>
+                          <h2>Domain names</h2>
+                          <p>Buy & register a domain for your website.</p>
+                      </div>
+
+                      <div className={style['active-right-block']}>
+                          <h2>Domain names</h2>
+                          <p>Buy & register a domain for your website.</p>
+                      </div>
+
+                      <div className={style['active-right-block']}>
+                          <h2>Domain names</h2>
+                          <p>Buy & register a domain for your website.</p>
+                      </div>
+                    </div>
+                </div>
+        </div>
       </div>
+
 
 
 {/* -----Open3----- */}
-
-      <div className={`${style['active-container']} ${open===3? style['active'] : ''}`}>
-            <div className={style['active-right']}>
-              <div className={style['active-right=top']}>
-                <h3>CREATION</h3>
-                <h3>BUSINESS</h3>
+<div className={`${style['active-container']} ${open===3? style['active'] : ''}`}>
+            <div className={style['active-left']}>
+              <div className={style['active-left-top']}>
+                <div className={style['active-left-top-block']}>
+                  <h3>CREATION</h3>
+                  <h3>BUSINESS</h3>
+                </div>
               </div>
-                <div className={style['active-right-container']}>
-                    <div className={style['active-container-right']}>
-                    <div className={style['active-container-right-box']}>
+                <div className={style['active-left-container']}>
+                    <div className={style['active-container-left-1']}>
+                    <div className={style['active-container-left-box']}>
 
-              <div className={style['active-container-right-box-block']} >
+                     <div className={style['active-container-left-box-block']} >
                           <h2>Website design</h2>
                           <p>Create your site with intuitive design features</p>
-                  </div>
-                    <div className={style['active-container-right-box-block']} >
+                      </div>
+                      <div className={style['active-container-left-box-block']} >
                           <h2>Website design</h2>
                           <p>Create your site with intuitive design features</p>
                     </div>
 
-                        <div className={style['active-container-right-box-block']} >
+                        <div className={style['active-container-left-box-block']} >
                             <h2>Website design</h2>
                             <p>Create your site with intuitive design features</p>
                         </div>
 
                     </div>  
                                              
-                  <div className={style['active-container-right-box']}>
-                        <div className={style['active-container-right-box-block']} >
+                  <div className={style['active-container-left-box']}>
+                        <div className={style['active-container-left-box-block']} >
                             <h2>Website design</h2>
                             <p>Create your site with intuitive design features</p>
                         </div>
 
-                        <div className={style['active-container-right-box-block']} >
+                        <div className={style['active-container-left-box-block']} >
                             <h2>Website design</h2>
                             <p>Create your site with intuitive design features</p>
                         </div>
-
-                        <div className={style['active-container-right-box-block']} >
+                        <div className={style['active-container-left-box-block']} >
                             <h2>Website design</h2>
                             <p>Create your site with intuitive design features</p>
                         </div>
@@ -243,18 +263,13 @@ function Header() {
                                              
             </div>
 
-            <div className={style['active-container-left']}>
-                          <div className={style['active-container-right-box-block']} >
+            <div className={style['active-container-left-2']}>
+                          <div className={style['active-container-left-box-block']} >
                             <h2>Website design</h2>
                             <p>Create your site with intuitive design features</p>
                         </div>
 
-                        <div className={style['active-container-right-box-block']} >
-                            <h2>Website design</h2>
-                            <p>Create your site with intuitive design features</p>
-                        </div>
-
-                        <div className={style['active-container-right-box-block']} >
+                        <div className={style['active-container-left-box-block']} >
                             <h2>Website design</h2>
                             <p>Create your site with intuitive design features</p>
                         </div>
@@ -262,7 +277,30 @@ function Header() {
 
         </div>
       </div>
-        <div className={style['active-left']}></div>
+        <div className={style['active-right']}>
+                <div className={style['active-right-container']}>
+                    <div className={style['active-right-top-text']}>
+                      <h3>ESSENTIALS</h3>
+                    </div>
+
+                    <div className={style['active-right-box']}>
+                      <div className={style['active-right-block']}>
+                          <h2>Domain names</h2>
+                          <p>Buy & register a domain for your website.</p>
+                      </div>
+
+                      <div className={style['active-right-block']}>
+                          <h2>Domain names</h2>
+                          <p>Buy & register a domain for your website.</p>
+                      </div>
+
+                      <div className={style['active-right-block']}>
+                          <h2>Domain names</h2>
+                          <p>Buy & register a domain for your website.</p>
+                      </div>
+                    </div>
+                </div>
+        </div>
       </div>
     </>
   )
