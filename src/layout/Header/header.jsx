@@ -26,7 +26,7 @@ function Header() {
         <Link to={"/"} >
           <img src='./imgs/Cobify 3.jpg' />
         </Link>
-        <Navbar menu={menu} setmenu={setmenu} open={open} setopen={setopen} tabs={tabs} />
+        <Navbar menu={menu} setmenu={setmenu} world={world} setworld={setworld} open={open} setopen={setopen} tabs={tabs} />
       </div>
 
       <div className="header-right">
@@ -37,7 +37,6 @@ function Header() {
               world?
                <div className='world-class'>
                   <div className="world-container">
-
                       <ul>
                         <div className="world-block">
                         <li>English</li>
@@ -76,14 +75,18 @@ function Header() {
             <p>log ln</p>
             </Link>
         </div>
-        <Link to={'/login'} >
-          <p className='p-element'> Get Started</p>
-        </Link>
+
+        <div className="menu-row-block">
+            <Link to={'/login'} >
+              <p className='p-element'> Get Started</p>
+            </Link>
+            <div  onClick={()=>setmenu(!menu)} className='menu-icon'>
+              <CiMenuBurger />
+           </div>
+        </div>
+
       </div>
 
-      <div  onClick={()=>setmenu(!menu)} className='menu-icon'>
-          <CiMenuBurger />
-      </div>
 
     </div>
 

@@ -193,6 +193,8 @@
 
 /* ----menu---- */
 .navbar-container-menu{
+    z-index: 1000;
+    height: 100%;
     padding: 20px;
     position: fixed;
     background-color: white;
@@ -208,7 +210,26 @@
 .img-media{
     display: none;
 }
+.open-display-none{
+    display: none;
+}
+.ul-row{
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
 @media(max-width:1200px){
+    .open-display-none{
+        display: flex;
+    }
+    .ul-icon{
+        display: flex;
+        flex-direction: column;
+    }
+    .active-container.active{
+        display: none;
+    }
     .icon-close{
         margin-top:10px;
         margin-right:7px;

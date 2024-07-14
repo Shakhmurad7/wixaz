@@ -503,15 +503,64 @@ video{
     gap: 50px;
     font-size: 12px;
 }
+
+
+/* ----menu---- */
 .menu-icon{
     display: none;
 }
+.menu-row-block{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+/* ----world---- */
+.icon-world-row{
+    display: flex;
+    gap: 10px;
+    display: none;
+}
+.world-block ul{
+    display: flex;
+    gap: 40px;
+}
+.world-media-container{
+    padding: 30px  20px;
+}
+.world-top-text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.box-text-top-world{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.icon-up-world{
+    display: none;
+}
+.box-text-top-world{
+    display: flex;
+}
+
+
 @media(max-width:1200px){
+    .icon-up-world{
+        display: flex;
+    }
+    .icon-world-row{
+        padding-top: 10px;
+        align-items: center;
+        display: flex;
+    }
     .menu-icon{
         font-size: 22px;
         display: flex;
     }
-    .header-right{
+    .IoIosGlobe , .li-after{
         display: none;
     }
 }
