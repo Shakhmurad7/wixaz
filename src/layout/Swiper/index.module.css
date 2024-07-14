@@ -61,20 +61,20 @@ body {
   
   .my-swiper-list {
     display: flex;
-    gap: 24px;
+    gap: 60px;
     list-style-type: none;
     overflow-x: auto;
-    width: 1400px;
+    width: 100%;
+    max-width: 1400px;
     padding: 20px 0px;
   }
   
   .my-swiper-list > li {
     cursor: pointer;
     display: flex;
-    gap: 20px;
     padding-bottom: 20px;
     flex-direction: column;
-    flex: 0 0 600px;
+    width: 600px;
     height: 400px;
     justify-content: center;
   }
@@ -89,4 +89,64 @@ body {
     align-items: center;
     gap: 5px;
     color: white;
+  }
+  @media(max-width:1457px){
+    .my-swiper-list > li{
+      width: 400px;
+      height: 300px;
+    }
+    .my-swiper-list > li img{
+      object-fit: cover;
+      width: 400px;
+      height: 270px;
+    }
+    .my-swiper-list{
+      gap: 60px;
+      width: 1000px;
+    }
+  }
+  @media(max-width:1057px){
+    .my-swiper-list > li{
+      width: 300px;
+      height: 220px;
+    }
+    .my-swiper-list > li img{
+      object-fit: cover;
+      width: 300px;
+      height: 220px;
+    }
+    .my-swiper-list{
+      gap: 60px;
+      width: 600px;
+    }
+  }
+  @media(max-width:650px){
+    .my-swiper-list > li{
+      width: 250px;
+      height: 150px
+    }
+    .my-swiper-list > li img{
+      object-fit: cover;
+      width: 250px;
+      height: 150px;
+    }
+    .my-swiper-list{
+      gap: 60px;
+      width: 400px;
+    }
+  }
+  @media(max-width:450px){
+    .my-swiper-list > li{
+      width: 250px;
+      height: 150px
+    }
+    .my-swiper-list > li img{
+      object-fit: cover;
+      width: 250px;
+      height: 150px;
+    }
+    .my-swiper-list{
+      gap: 60px;
+      width: 250px;
+    }
   }

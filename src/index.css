@@ -398,6 +398,39 @@ video{
     align-items: center;
 }
 
+
+/* ----World---- */
+.world-class{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+.world-container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.world-container ul {
+    width: 100%;
+    justify-content: space-between;
+    max-width: 650px;
+    display: flex;
+}
+.world-container ul li{
+    color: black;
+}
+.world-block{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 /* ---footer--- */
 .footer{
     font-size: 12px;

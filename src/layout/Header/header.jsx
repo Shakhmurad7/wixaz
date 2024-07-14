@@ -5,6 +5,8 @@ import style from '../NavBar/index.module.css'
 import { Link } from 'react-router-dom';
 
 function Header() {
+
+  const [world , setworld] = useState(false)
   const [open , setopen] = useState(null)
   const tabs =(i)=>{
       if(open === i){
@@ -27,8 +29,46 @@ function Header() {
 
       <div className="header-right">
         <div className="header-left-row">
-          <div className="IoIosGlobe ">
+          <div  onClick={()=>setworld(!world)} className="IoIosGlobe">
             <IoIosGlobe />
+            {
+              world?
+               <div className='world-class'>
+                  <div className="world-container">
+                      
+                      <ul>
+                        <div className="world-block">
+                        <li>English</li>
+                        <li>Bahasa Indonesia</li>
+                        <li>Tiếng Việt</li>
+                        <li>繁體中文</li>
+                        <li>Українська</li>
+                        <li>ไทย</li>
+                        <li>Čeština</li>
+                        <li>हिन्दी</li>
+                        </div>
+                        <div className="world-block">
+                        <li>ČešDansktina</li>
+                        <li>Türkçe</li>
+                        <li>한국어</li>
+                        <li>日本語</li>
+                        <li>Svenska</li>
+                        <li>Русский</li>
+                        <li>Português</li>
+                        </div>
+                        <div className="world-block">
+                        <li>Polski</li>
+                        <li>Nederlands</li>
+                        <li>Français</li>
+                        <li>Español</li>
+                        <li>Deutsch</li>
+                        </div>
+                      </ul>
+                  </div>
+              </div> 
+              :
+              ''
+            } 
           </div>
             <Link className='li-after' to={'/login'} >
             <p>log ln</p>
