@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Navbar from '../NavBar/navbar'
 import { IoIosGlobe } from "react-icons/io";
 import style from '../NavBar/index.module.css'
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [open , setopen] = useState(null)
@@ -18,7 +19,9 @@ function Header() {
     <>
     <div className="hader-container">
       <div className="header-left">
-        <img src='./imgs/Cobify 3.jpg' />
+        <Link to={"/"} >
+          <img src='./imgs/Cobify 3.jpg' />
+        </Link>
         <Navbar open={open} setopen={setopen} tabs={tabs} />
       </div>
 
@@ -27,7 +30,9 @@ function Header() {
           <div className="IoIosGlobe ">
             <IoIosGlobe />
           </div>
-            <p className='li-after' >log ln</p>
+            <Link className='li-after' to={'/login'} >
+            <p>log ln</p>
+            </Link>
         </div>
           <p className='p-element'> Get Started</p>
       </div>

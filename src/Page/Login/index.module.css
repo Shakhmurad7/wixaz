@@ -1,0 +1,129 @@
+.login-logo img{
+    border-radius: 10px;
+    width: 90px ;
+    height: 60px;
+    object-fit: cover;
+}
+.login-logo {
+    margin: 20px 40px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+span{
+    color:  #166aea;;
+}
+.login-top-text{
+    text-align: center  ;
+}
+.login-top-text h2{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+.login-box{
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+.login-left p{
+    cursor: pointer;
+    font-size: 13px;
+    text-decoration: underline;
+}
+.login-left input{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.253);
+}
+.login-right{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+.login-left button{
+    font-weight: 700;
+    color: #166aea;
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px solid #166bea42 !important;
+    border: none;
+    border-bottom: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: fit-content;
+}
+.login-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    border-right: 1px solid rgba(0, 0, 0, 0.197);
+    padding: 30px 60px;
+}
+
+.login-block-1 p{
+    background-color: #166aea;
+    width: 100%;
+    height: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.login-block-2 p{
+    background-color: #0f336a;
+    width: 100%;
+    height: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.login-block-3 p{
+    background-color: #ffffff;
+    width: 100%;
+    height: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+.login-block-3{
+    border: 1px solid #000000 !important;
+    align-items: center;
+    display: flex; 
+}
+.login-block-1 , .login-block-2 , .login-block-3{
+    border: 1px solid #166aea;
+    align-items: center;
+    display: flex;
+}
+.icon{
+    padding: 15px 15px 10px 15px ;
+    border-right: 1px solid;
+    font-size: 17px
+
+}
+.p-elenent{
+    color: #166aea;
+    text-align: center;
+}
