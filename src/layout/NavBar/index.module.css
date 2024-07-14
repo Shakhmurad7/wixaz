@@ -189,3 +189,50 @@
     color: #166aea;
     cursor: pointer;
 }
+
+
+/* ----menu---- */
+.navbar-container-menu{
+    padding: 20px;
+    position: fixed;
+    background-color: white;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+.ul-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img-media{
+    display: none;
+}
+@media(max-width:1200px){
+    .icon-close{
+        margin-top:10px;
+        margin-right:7px;
+        font-size: 22px;
+    }
+    .img-media{
+        margin-top:-5px;
+        margin-left:7px;
+    }
+    .img-media{
+        align-content: center;
+        justify-content: space-between;
+        border-radius: 20px;
+        margin-bottom: 40px !important;
+        display: flex;
+    }
+    .li-after{
+        margin-top: 10px;
+    }
+    .navbar-container{
+        display: none;
+    }
+    .ul-icon{
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -3,9 +3,11 @@ import Navbar from '../NavBar/navbar'
 import { IoIosGlobe } from "react-icons/io";
 import style from '../NavBar/index.module.css'
 import { Link } from 'react-router-dom';
+import { CiMenuBurger } from "react-icons/ci";
 
 function Header() {
 
+  const [menu , setmenu] = useState(false)
   const [world , setworld] = useState(false)
   const [open , setopen] = useState(null)
   const tabs =(i)=>{
@@ -24,7 +26,7 @@ function Header() {
         <Link to={"/"} >
           <img src='./imgs/Cobify 3.jpg' />
         </Link>
-        <Navbar open={open} setopen={setopen} tabs={tabs} />
+        <Navbar menu={menu} setmenu={setmenu} open={open} setopen={setopen} tabs={tabs} />
       </div>
 
       <div className="header-right">
@@ -35,7 +37,7 @@ function Header() {
               world?
                <div className='world-class'>
                   <div className="world-container">
-                      
+
                       <ul>
                         <div className="world-block">
                         <li>English</li>
@@ -77,6 +79,10 @@ function Header() {
         <Link to={'/login'} >
           <p className='p-element'> Get Started</p>
         </Link>
+      </div>
+
+      <div  onClick={()=>setmenu(!menu)} className='menu-icon'>
+          <CiMenuBurger />
       </div>
 
     </div>

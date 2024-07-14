@@ -503,5 +503,17 @@ video{
     gap: 50px;
     font-size: 12px;
 }
+.menu-icon{
+    display: none;
+}
+@media(max-width:1200px){
+    .menu-icon{
+        font-size: 22px;
+        display: flex;
+    }
+    .header-right{
+        display: none;
+    }
+}
 
 
