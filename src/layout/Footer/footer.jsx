@@ -10,8 +10,9 @@ function Footer() {
   return (
     <>
         <div className="footer">
-            <div className="footer-container">
-
+            <div className="footer-all-container">
+          
+          <div className="footer-container">
               <div className="footer-block">
                   <ul>
                     <li className='li-weight' >Product</li>
@@ -74,6 +75,7 @@ function Footer() {
                     <li>Careers</li>
                   </ul>
               </div>
+          </div>
 
               <div className="footer-block-end">
                   <img src="./imgs/Cobify 3.jpg" />
