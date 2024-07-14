@@ -34,7 +34,9 @@ function Header() {
             <p>log ln</p>
             </Link>
         </div>
+        <Link to={'/login'} >
           <p className='p-element'> Get Started</p>
+        </Link>
       </div>
 
     </div>

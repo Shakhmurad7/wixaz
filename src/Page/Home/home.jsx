@@ -4,6 +4,7 @@ import Swipers from '../../layout/Swiper/swiper'
 import { FaArrowRightLong } from "react-icons/fa6";
 import Accardion from '../../layout/accardion/accardion';
 import { GoArrowRight } from "react-icons/go";
+import { Link } from 'react-router-dom';
 
 
 function Home() {
@@ -17,7 +18,9 @@ function Home() {
             <h3>Build and scale with confidence. From a powerful website builder to advanced business solutions—we’ve got you covered</h3>
             <div className="nav-block">
               <div className="button-incon">
-                <button>Get Started</button>
+                <Link to={'/login'} >
+                  <button>Get Started</button>
+                </Link>
                 <div className="icon-right">
                   <GoArrowRight />
                 </div>
@@ -51,7 +54,9 @@ function Home() {
               </div>
             </div>
             <div className="box-button">
+              <Link to={'/login'} >
                 <button>Get Started</button>
+              </Link>
             </div>
         </div>
         </div>
@@ -68,10 +73,12 @@ function Home() {
               </div>
               <div className="content-right">
                 <p>Get secure web hosting, a custom domain and a full business solution tailored to your needs. So whether you’re selling online, starting a blog, building a community or anything else—your site will do more than just look good, it will be the core of your business.</p>
+                  <Link to={'/login'} >
                 <div className="content-icon">
-                  <h3>Get Started</h3>
-                  <FaArrowRightLong />
+                    <h3>Get Started</h3>
+                    <FaArrowRightLong />
                 </div>
+                  </Link>
               </div>
             </div>
           </div>
@@ -89,7 +96,9 @@ function Home() {
                     <li>Powerful AI features for smart customization</li>
                     <li>Full-stack web dev tools for custom functionality</li>
                   </ul>
+                  <Link to={'/login'} >
                   <p>Get Started</p>
+                  </Link>
                   </div>
                 </div>
                 <div className="section-right">
@@ -113,27 +122,33 @@ function Home() {
               <div className="box-block">
                   <h3>Build a website</h3>
                   <p>Design with a full suite of intuitive tools and powerful AI to create the site you want.</p>
+                  <Link to={'/login'} >
                   <div className="box-icon-right">
                     <p>Go to Help Center</p>
                     <FaArrowRightLong />
                   </div>
+                  </Link>
               </div>
               <div className="box-block">
                   <h3>Manage your business
                   </h3>
                   <p>Design with a full suite of intuitive tools and powerful AI to create the site you want.</p>
+                  <Link to={'/login'} >
                   <div className="box-icon-right">
                     <p>Go to Help Center</p>
                     <FaArrowRightLong />
                   </div>
+                  </Link>
               </div>
               <div className="box-block">
                   <h3>Grow online</h3>
                   <p>Design with a full suite of intuitive tools and powerful AI to create the site you want.</p>
+                  <Link to={'/login'} >
                   <div className="box-icon-right">
                     <p>Go to Help Center</p>
                     <FaArrowRightLong />
                   </div>
+                  </Link>
               </div>
             </div>
         </div>
@@ -150,7 +165,9 @@ function Home() {
               <div className="page-container">
                   <div className="page-box"> 
                     <h2>Tomorrow’s success starts today.</h2>
+                    <Link to={'/login'} >
                     <p>Get Started</p>
+                    </Link>
                   </div>
               </div>
 

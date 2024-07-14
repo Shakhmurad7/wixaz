@@ -12,7 +12,7 @@
     flex-direction: column;
     gap: 30px;
 }
-span{
+.span{
     color:  #166aea;;
 }
 .login-top-text{
@@ -56,6 +56,7 @@ span{
     max-width: 400px;
 }
 .login-left button{
+    cursor: pointer;
     font-weight: 700;
     color: #166aea;
     padding: 10px 40px;
@@ -78,6 +79,7 @@ span{
 }
 
 .login-block-1 p{
+    cursor: pointer;
     background-color: #166aea;
     width: 100%;
     height: 47px;
@@ -88,6 +90,7 @@ span{
     color: white;
 }
 .login-block-2 p{
+    cursor: pointer;
     background-color: #0f336a;
     width: 100%;
     height: 47px;
@@ -98,6 +101,7 @@ span{
     color: white;
 }
 .login-block-3 p{
+    cursor: pointer;
     background-color: #ffffff;
     width: 100%;
     height: 47px;
@@ -123,7 +127,38 @@ span{
     font-size: 17px
 
 }
+.login-left button:hover{
+    background-color: #166aea;
+    color: rgb(255, 255, 255);
+}
 .p-elenent{
     color: #166aea;
+    text-align: center;
+}
+
+.login-end-p-block p{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-end-p-block p:hover{
+    color: #166aea;
+}
+.login-end-p-block{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.login-end-block P:hover{
+    color: #166aea;
+    cursor: pointer;
+}
+.login-end-block{
+    color: rgba(0, 0, 0, 0.573);
+    font-size: 14px;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }

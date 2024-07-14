@@ -16,7 +16,7 @@ function Login() {
                 <div className={style['login-container']}>
                     <div className={style['login-top-text']}>
                         <h2>To come in</h2>
-                        <p>Don't have an account yet?<span>Register</span> </p>
+                        <p>Don't have an account yet?<span className={style['span']} >Register</span> </p>
                     </div>
                         <div className={style['login-box']}>
                             <div className={style['login-left']}>
@@ -46,6 +46,13 @@ function Login() {
 
                                     <p className={style['p-elenent']}  >Lorem ipsum, dolor sit </p>
                             </div>
+                        </div>
+                        <div className={style['login-end-block']}>
+                            <div className={style['login-end-p-block']}>
+                                <p>Terms of Use</p>
+                                <p>Privacy Policy</p>
+                            </div>
+                            <p>This site is protected by reCAPTCHA Enterprise and the Google Privacy Policy and Terms of Service apply .</p>
                         </div>
                 </div>
             </div>

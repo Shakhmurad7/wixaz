@@ -39,7 +39,7 @@ li{
 }
 .header-left-row{
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     display: flex;
 }
 .header-right{
@@ -64,8 +64,8 @@ li{
 }
 .li-after::after{
     margin-left: -10px;
-    top: -2px;
-    left: 0;
+    top:-2px;
+    left: -13px;
     position: absolute;
     content: "";
     height: 20px;
