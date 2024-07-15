@@ -14,6 +14,7 @@
     text-decoration: underline;
 }
 .swiper-top-text{
+    padding: 20px;
     width: 100%;
     max-width: 780px;
     color: white;
@@ -121,14 +122,17 @@ body {
     }
   }
   @media(max-width:650px){
+    .swiper-top-text h2{
+      font-size: 3rem;
+    }
     .my-swiper-list > li{
-      width: 250px;
-      height: 150px
+      width: 280px;
+      height: 180px
     }
     .my-swiper-list > li img{
       object-fit: cover;
-      width: 250px;
-      height: 150px;
+      width: 280px;
+      height: 180px;
     }
     .my-swiper-list{
       gap: 60px;
@@ -137,16 +141,16 @@ body {
   }
   @media(max-width:450px){
     .my-swiper-list > li{
-      width: 250px;
-      height: 150px
+      width: 320px;
+      height: 200px
     }
     .my-swiper-list > li img{
       object-fit: cover;
-      width: 250px;
-      height: 150px;
+      width: 320px;
+      height: 200px;
     }
     .my-swiper-list{
       gap: 60px;
-      width: 250px;
+      width: 300px;
     }
   }

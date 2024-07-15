@@ -52,3 +52,27 @@
     height:150px;
     transition: .4s;
 }
+@media(max-width:900px){
+    .accardion-block.active{
+        height:190px;
+        transition: .4s;
+    }
+}
+@media(max-width:768px){
+    .accardion-block.active{
+        height:220px;
+        transition: .4s;
+    }
+}
+@media(max-width:600px){
+    .accardion-block.active{
+        height:260px;
+        transition: .4s;
+    }
+}
+@media(max-width:400px){
+    .accardion-block.active{
+        height:340px;
+        transition: .4s;
+    }
+}

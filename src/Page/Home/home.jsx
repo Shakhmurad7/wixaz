@@ -29,7 +29,9 @@ function Home() {
             </div>
           </div>
           <div className="nav-img">
-            <img src="./Screenshot_1.png" />
+            <img className='pc' src="./Screenshot_1.png" />
+            <img className='tablet' src="./imgs/tablets.png" />
+            <img className='mobile' src="./imgs/mobile.png" />
           </div>
         </div>
 
