@@ -537,7 +537,7 @@ video{
     gap: 40px;
 }
 .world-media-container{
-    padding: 30px  20px;
+    padding:20px;
 }
 .world-top-text{
     display: flex;
@@ -701,6 +701,9 @@ video{
     }
 }
 @media(max-width:430px){
+    .world-block{
+        gap: 10px;
+    }
     .content-left{
         width: 100%;
     }
