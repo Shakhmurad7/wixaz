@@ -4,6 +4,7 @@ import { IoIosGlobe } from "react-icons/io";
 import style from '../NavBar/index.module.css'
 import { Link } from 'react-router-dom';
 import { CiMenuBurger } from "react-icons/ci";
+import { IoMdClose } from "react-icons/io";
 
 function Header() {
 
@@ -36,6 +37,9 @@ function Header() {
             {
               world?
                <div className='world-class'>
+                    <div className="close-icon">
+                      <IoMdClose />
+                    </div>
                   <div className="world-container">
                       <ul>
                         <div className="world-block">

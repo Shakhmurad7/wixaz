@@ -162,3 +162,31 @@
     flex-direction: column;
     text-align: center;
 }
+@media(max-width:768px){
+    .login-left{
+        padding: 0px 50px;
+        order: 1;
+        border-right: none;
+        border-top: 1px solid rgba(0, 0, 0, 0.197);
+    }
+    .login-box{
+        flex-direction: column;
+    }
+}
+@media(max-width:460px){
+    .login-end-block{
+        padding: 0px 20px;
+    }
+    .login-left{
+        width: 100%;
+        max-width: 300px;
+        order: 1;
+        border-right: none;
+        border-top: 1px solid rgba(0, 0, 0, 0.197);
+    }
+    .login-left button{
+        padding: 10px 30px;
+    }
+
+}
+

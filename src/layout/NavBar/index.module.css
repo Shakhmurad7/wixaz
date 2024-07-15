@@ -6,6 +6,7 @@
     display: flex; 
 }
 .navbar-block ul li{
+    width: 85px;
     position: relative;
     font-size: 16px;
     padding: 10px 0px;

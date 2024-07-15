@@ -509,6 +509,13 @@ video{
 
 
 /* ----menu---- */
+.close-icon{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 40px;
+    right: 60px;
+}
 .menu-icon{
     display: none;
 }
